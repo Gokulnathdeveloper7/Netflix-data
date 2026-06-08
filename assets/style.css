@@ -1,0 +1,26 @@
+body {
+    background-color: #0F0F0F !important;
+    margin: 0;
+}
+
+.card-hover:hover {
+    border-color: #E50914 !important;
+    box-shadow: 0 12px 40px rgba(229,9,20,0.18) !important;
+}
+
+.card-hover:hover .chart-img {
+    transform: scale(1.018);
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0F0F0F;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #E50914;
+    border-radius: 3px;
+}
